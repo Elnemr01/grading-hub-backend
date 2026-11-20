@@ -5,3 +5,8 @@ export type AppError= {
     message?: string;
 }
 
+
+export type Payload = {
+    id: string;
+    email: string;
+}
